@@ -1,0 +1,8 @@
+- cmd: /usr/local/bin
+   when: 1367173749
+   paths:
+    - /usr/local/bin
+- cmd: /usr/bin
+   when: 1367173764
+   paths:
+    - /usr/bin
