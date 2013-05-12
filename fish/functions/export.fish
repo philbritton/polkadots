@@ -5,8 +5,8 @@ set -x LC_CTYPE en_US.UTF-8
 set -x PATH "$HOME/bin" $PATH
 
 # add homebrew to the beginning of PATH
-set -x PATH "/usr/local/bin/" $PATH
-set -x PATH "/usr/local/sbin/" $PATH
+set -x PATH "/usr/local/bin" $PATH
+set -x PATH "/usr/local/sbin" $PATH
 
 # setup rbenv (from https://gist.github.com/2937920)
 set -x PATH "$HOME/.rbenv/bin" $PATH
@@ -15,7 +15,7 @@ set -x PATH "$HOME/.rbenv/shims" $PATH
 set -x PATH "/usr/local/share/npm/bin" $PATH
 
 # editor
-set -x EDITOR "mvim"
+set -x EDITOR "subl"
 
 # global node modules
 set -x NODE_PATH "/usr/local/lib/node_modules"
