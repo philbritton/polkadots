@@ -1,5 +1,5 @@
 # PEP 370 PATH added by PyPM on 2012-05-29 09:04:48.758191
-export PATH=/usr/bin:$PATH
+export PATH=/usr/local/bin:$PATH
 [ "$TERM" = "xterm" ] && TERM="xterm-256color")
 alias zshconfig="subl ~/.zshrc"
 alias bashconfig="subl ~/.bashrc"
